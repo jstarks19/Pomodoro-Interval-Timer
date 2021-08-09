@@ -1,0 +1,39 @@
+.DisplayButton {
+  button {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+
+    background-color: transparent;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: all 0.2s linear;
+
+    i {
+      color: white;
+      font-size: 2em;
+      width: 1em;
+      height: 1em;
+    }
+  }
+}
+
+.DisplayButton:first-of-type {
+  i {
+    position: relative;
+    bottom: 2px;
+  }
+}
+
+.DisplayButton:last-of-type {
+  i {
+    position: relative;
+    top: 1px;
+  }
+}

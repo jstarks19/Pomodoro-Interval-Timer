@@ -1,0 +1,34 @@
+@import "darken";
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+.DisplayNumbers {
+  span {
+    display: inline-block;
+    width: 100%;
+
+    font-family: "Allerta Stencil";
+    font-size: 6rem;
+    text-align: center;
+  }
+}
+
+.DisplayNumbers:nth-child(2n) {
+  position: relative;
+  left: 5px;
+  span {
+    color: #dbdcdc;
+  }
+}
+
+.DisplayNumbers:nth-child(2n + 1) {
+  position: relative;
+  right: 5px;
+  span {
+    color: #8bff6f;
+  }
+}
+
+.Number-Underline {
+  span {
+    text-decoration: underline;
+  }
+}
