@@ -2,6 +2,7 @@ $main-bg-color: #d0e0d2;
 
 body {
   background-color: $main-bg-color;
+  height: 100vh;
 }
 
 .App {
@@ -10,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 10rem;
+  top: 10vh;
   width: 100%;
 }
 
