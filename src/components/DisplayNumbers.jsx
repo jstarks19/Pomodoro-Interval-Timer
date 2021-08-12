@@ -8,7 +8,9 @@ export default class DisplayNumbers extends Component {
   render() {
     return (
       <div className={`DisplayNumbers ${this.props.type}Numbers ${this.props.selected ? "" : "darken"}`}>
-        <span>{this.props.valueString}</span>
+        <div>
+          <span>{this.props.valueString}</span>
+        </div>
       </div>
     );
   }

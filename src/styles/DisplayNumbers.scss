@@ -1,29 +1,41 @@
 @import "darken";
 @import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
 .DisplayNumbers {
-  span {
-    display: inline-block;
-    width: 100%;
-
-    font-family: "Allerta Stencil";
-    font-size: 6rem;
+  div {
+    font-family: "Roboto Mono";
     text-align: center;
+    letter-spacing: 0em;
+    display: inline-block;
+    vertical-align: middle;
+
+    font-size: 6vw;
+
+    @media (max-width: 750px) {
+      letter-spacing: 0rem;
+      font-size: 2rem;
+      padding: 0.1rem 0;
+    }
   }
 }
 
 .DisplayNumbers:nth-child(2n) {
-  position: relative;
-  left: 5px;
   span {
     color: #dbdcdc;
+  }
+  margin-left: 0.6rem;
+  @media (max-width: 750px) {
+    margin-left: 0;
   }
 }
 
 .DisplayNumbers:nth-child(2n + 1) {
-  position: relative;
-  right: 5px;
   span {
     color: #8bff6f;
+  }
+  margin-right: 0.6rem;
+  @media (max-width: 750px) {
+    margin-right: 0;
   }
 }
 
