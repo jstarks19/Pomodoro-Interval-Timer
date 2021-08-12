@@ -19,6 +19,16 @@
     width: 9em;
     position: relative;
     right: 0em;
+
+    @media (max-width: 500px) {
+      flex-flow: column;
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+      button {
+        margin: 0em 1em;
+      }
+    }
   }
 
   &-Main {
