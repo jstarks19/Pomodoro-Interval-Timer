@@ -9,7 +9,7 @@
     display: inline-block;
     vertical-align: middle;
 
-    font-size: 6vw;
+    font-size: 5.5vw;
 
     @media (max-width: 750px) {
       letter-spacing: 0rem;
@@ -23,19 +23,11 @@
   span {
     color: #dbdcdc;
   }
-  margin-left: 0.6rem;
-  @media (max-width: 750px) {
-    margin-left: 0;
-  }
 }
 
 .DisplayNumbers:nth-child(2n + 1) {
   span {
     color: #8bff6f;
-  }
-  margin-right: 0.6rem;
-  @media (max-width: 750px) {
-    margin-right: 0;
   }
 }
 
