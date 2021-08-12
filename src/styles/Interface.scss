@@ -19,16 +19,6 @@
     width: 9em;
     position: relative;
     right: 0em;
-
-    @media (max-width: 500px) {
-      flex-flow: column;
-      width: 50%;
-      align-items: center;
-      justify-content: center;
-      button {
-        margin: 0em 1em;
-      }
-    }
   }
 
   &-Main {
@@ -47,9 +37,10 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    width: 10em;
   }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1300px) and (min-width: 750px) {
     width: 36vw;
   }
 }
